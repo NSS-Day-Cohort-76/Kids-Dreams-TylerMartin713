@@ -1,16 +1,26 @@
 .details {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .detail--column {
-    flex-basis: 24%;
-    margin: 0 2rem;
-    padding: 0.5rem 4rem;
-    border: 1px dotted rgb(61, 129, 196);
+  flex-basis: 24%;
+  margin: 0 2rem;
+  padding: 0.5rem 4rem;
+  border: 1px dotted rgb(61, 129, 196);
 }
 
 .pairings {
-    padding: 1rem 5rem;
+  padding: 1rem 5rem;
 }
 
+.header-main {
+  display: flex;
+  justify-content: center;
+}
+
+.assignments {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
